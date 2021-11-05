@@ -21,11 +21,11 @@ function Header() {
                 <nav class="fixed z-50 container mx-auto bg-black h-16">
                     <div class="max-w-4xl h-12 nd:h-16 mx-auto flex justify-between align-stretch px-4">
                         <div id="logo" class="flex items-center text-white font-bold">
-                            <img src={process.env.REACT_APP_IMG_URL + 'Back.png'} alt='Back' className='mr-3 h-5' />
+                            <img src={'static/images/Back.png'} alt='Back' className='mr-3 h-5' />
                             <a href="/" className='text-xl'>Romantic Videos</a>
                         </div>
                         <div class="md:hidden flex items-center">
-                            <img src={process.env.REACT_APP_IMG_URL + 'search.png'} alt='Search' className='h-5' onClick={() => setShowSearch(!showSearch)} />
+                            <img src={'static/images/search.png'} alt='Search' className='h-5' onClick={() => setShowSearch(!showSearch)} />
                         </div>
                     </div>
                 </nav>

@@ -2,7 +2,6 @@
     "name": "diagonal",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://vigneshkumartheivanayagam.github.io/DiagnalProject",
     "dependencies": {
         "@craco/craco": "^6.4.0",
         "@testing-library/jest-dom": "^5.15.0",
@@ -22,9 +21,7 @@
         "start": "craco start",
         "build": "craco build",
         "test": "craco test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": [
@@ -46,7 +43,6 @@
     },
     "devDependencies": {
         "autoprefixer": "^9.8.8",
-        "gh-pages": "^3.2.3",
         "postcss": "^7.0.39",
         "ps-scrollbar-tailwind": "0.0.1",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
